@@ -1,5 +1,9 @@
 # rules2lint
 
+PROBLEM: .cursorrules and other natural language instructions are not enforceable, and LLMs often choose to ignore them.
+
+SOLUTION: transform them into ESlint rules for automatic validation!
+
 This tool converts custom coding rules from a `.cursorrules` file (located within the `rules2lint` folder) into an ESLint configuration file (`eslint.config.mjs`) using OpenAI's GPT-4o. The generated ESLint config is placed in the **parent directory** of `rules2lint`, allowing it to apply to your broader project.
 
 ## Files
