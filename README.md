@@ -1,5 +1,9 @@
 # rules2lint
 
+<p align="center">
+  <img src="./banner.png" alt="rules2lint banner" />
+</p>
+
 PROBLEM: .cursorrules and other natural language instructions are not enforceable, and LLMs often choose to ignore them.
 
 SOLUTION: transform them into ESlint rules for automatic validation!
